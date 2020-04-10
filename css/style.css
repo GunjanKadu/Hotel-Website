@@ -33,6 +33,9 @@ p {
 .lead {
   font-size: 20px;
 }
+.clr {
+  clear: both;
+}
 .btn {
   display: inline-block;
   font-size: 18px;
@@ -58,8 +61,8 @@ p {
   color: #333;
 }
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  background: #f7c08a;
+  color: #333;
 }
 /* Navbar */
 #navbar {
@@ -131,4 +134,23 @@ p {
 }
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Main Footer */
+#main-footer {
+  text-align: center;
+  background-color: #444;
+  color: white;
+  padding: 20px;
 }
